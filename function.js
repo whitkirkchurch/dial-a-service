@@ -27,10 +27,20 @@ exports.handler = function (context, event, callback) {
       // No digit pressed? Spit out the root menu.
       if (event.Digits === undefined) {
         const service_menu = services
-          .map(
-            (service, index) => "Press " + (index + 1) + " for " + service.title
-          )
-          .join(",");
+          .map(function (service, index) {
+            if (index === 0) {
+              return (
+                "Press " +
+                (index + 1) +
+                " for the service from " +
+                service.title +
+                "."
+              );
+            } else {
+              return "For " + service.title + ", press " + (index + 1) + ".";
+            }
+          })
+          .join(" ");
 
         twiml
           .gather({ numDigits: 1 })

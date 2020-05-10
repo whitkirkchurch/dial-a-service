@@ -7,8 +7,10 @@ cd "$(dirname "$0")/.."
 script/update
 
 echo "==> Running format checks…"
-
 node_modules/.bin/prettier -c **/*.md **/*.js **/*.json
 
 echo "==> Validating JSON…"
 node_modules/.bin/ajv -s tests/data.schema.json -d data.json
+
+echo "==> Checking expected files exist…"
+bin/check-files.js

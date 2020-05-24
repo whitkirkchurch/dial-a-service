@@ -2,6 +2,14 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
+      "title": "Sunday 24th May",
+      "file": "2020-05-24.mp3"
+    },
+    {
+      "title": "Ascension Day, Thursday 21st May",
+      "file": "2020-05-21.mp3"
+    },
+    {
       "title": "Sunday 17th May",
       "file": "2020-05-17.mp3"
     },

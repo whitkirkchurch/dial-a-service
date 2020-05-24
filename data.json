@@ -2,40 +2,44 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
-      "title": "Sunday 29th March",
-      "file": "2020-03-29.mp3"
-    },
-    {
-      "title": "Maundy Thursday, Thursday 9th April",
-      "file": "2020-04-09.mp3"
-    },
-    {
-      "title": "Good Friday, Friday 10th April",
-      "file": "2020-04-10.mp3"
-    },
-    {
-      "title": "Easter Sunday, Sunday 12th April",
-      "file": "2020-04-12.mp3"
-    },
-    {
-      "title": "Sunday 19th April",
-      "file": "2020-04-19.mp3"
-    },
-    {
-      "title": "Sunday 26th April",
-      "file": "2020-04-26.mp3"
-    },
-    {
-      "title": "Sunday 3rd May",
-      "file": "2020-05-03.mp3"
+      "title": "Sunday 17th May",
+      "file": "2020-05-17.mp3"
     },
     {
       "title": "Sunday 10th May",
       "file": "2020-05-10.mp3"
     },
     {
-      "title": "Sunday 17th May",
-      "file": "2020-05-17.mp3"
+      "title": "Sunday 3rd May",
+      "file": "2020-05-03.mp3"
+    },
+    {
+      "title": "Sunday 26th April",
+      "file": "2020-04-26.mp3"
+    },
+    {
+      "title": "Sunday 19th April",
+      "file": "2020-04-19.mp3"
+    },
+    {
+      "title": "Easter Sunday, Sunday 12th April",
+      "file": "2020-04-12.mp3"
+    },
+    {
+      "title": "Good Friday, Friday 10th April",
+      "file": "2020-04-10.mp3"
+    },
+    {
+      "title": "Maundy Thursday, Thursday 9th April",
+      "file": "2020-04-09.mp3"
+    },
+    {
+      "title": "Sunday 5th April",
+      "file": "2020-04-05.mp3"
+    },
+    {
+      "title": "Sunday 29th March",
+      "file": "2020-03-29.mp3"
     }
   ]
 }

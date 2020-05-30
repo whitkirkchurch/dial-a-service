@@ -2,6 +2,10 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
+      "title": "Pentecost, Sunday 31st May",
+      "file": "2020-05-31.mp3"
+    },
+    {
       "title": "Sunday 24th May",
       "file": "2020-05-24.mp3"
     },

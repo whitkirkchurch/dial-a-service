@@ -24,6 +24,10 @@ class ServiceData {
       return this.dateString;
     }
   }
+
+  get serviceInFuture() {
+    return this.dateTimeObject.isAfter();
+  }
 }
 
 class ChurchData {
@@ -36,7 +40,9 @@ class ChurchData {
   }
 
   get services() {
-    return this.data.services.map((f) => new ServiceData(f));
+    return this.data.services
+      .map((f) => new ServiceData(f))
+      .filter((f) => !f.serviceInFuture);
   }
 
   get orderedServices() {

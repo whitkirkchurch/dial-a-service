@@ -32,6 +32,13 @@ describe("Dial-A-Service", function () {
       service = new das.ServiceData(json.services[3]);
       assert.equal(service.serviceDescriptorString, "Sunday 24th May");
     });
+
+    it("correctly detects future services", function () {
+      pastService = new das.ServiceData(json.services[0]);
+      futureService = new das.ServiceData(json.services[4]);
+      assert.equal(pastService.serviceInFuture, false);
+      assert.equal(futureService.serviceInFuture, true);
+    });
   });
 
   describe("ChurchData", function () {
@@ -44,7 +51,7 @@ describe("Dial-A-Service", function () {
       assert.equal(church.churchName, "Test Fixtures Church");
     });
 
-    it("orderedServices correctly orders services newest first", function () {
+    it("orderedServices returns expected services in order", function () {
       assert.deepEqual(
         church.orderedServices.map((f) => f.dateString),
         [

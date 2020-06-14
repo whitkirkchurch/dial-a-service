@@ -10,7 +10,7 @@ echo "==> Running format checks…"
 node_modules/.bin/prettier -c **/*.md **/*.js **/*.json --prose-wrap always
 
 echo "==> Validating JSON…"
-node_modules/.bin/ajv -s tests/data.schema.json -d data.json
+node_modules/.bin/ajv -s test/data.schema.json -d data.json
 
 echo "==> Checking expected files exist…"
 bin/check-files.js

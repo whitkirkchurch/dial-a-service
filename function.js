@@ -24,6 +24,10 @@ class ServiceData {
       return this.dateString;
     }
   }
+
+  get serviceInFuture() {
+    return this.dateTimeObject.isAfter();
+  }
 }
 
 class ChurchData {
@@ -36,7 +40,9 @@ class ChurchData {
   }
 
   get services() {
-    return this.data.services.map((f) => new ServiceData(f));
+    return this.data.services
+      .map((f) => new ServiceData(f))
+      .filter((f) => !f.serviceInFuture);
   }
 
   get orderedServices() {
@@ -114,7 +120,7 @@ exports.handler = function (context, event, callback) {
         const service_id = event.Digits - 1;
         const service = services[service_id];
 
-        if (service === undefined) {
+        if (service === undefined || service.fileName === undefined) {
           twiml.say("Sorry, we ran into a problem fetching the service.");
           callback(null, twiml);
           twiml.hangup();
@@ -123,7 +129,7 @@ exports.handler = function (context, event, callback) {
         twiml.say(
           "Please wait whilst we fetch the service. It may take a few seconds to connect you."
         );
-        let service_url = das_root_url + "audio/" + service.file;
+        let service_url = das_root_url + "audio/" + service.fileName;
         twiml.play(service_url);
         twiml.hangup();
       }

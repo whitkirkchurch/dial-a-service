@@ -2,67 +2,74 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
-      "title": "Sunday 14th June",
+      "datetime": "2020-06-14T10:00:00+0100",
       "file": "2020-06-14.mp3"
     },
     {
-      "title": "Corpus Christi, Thursday 11th June",
+      "title": "Corpus Christi",
+      "datetime": "2020-06-11T19:30:00+0100",
       "file": "2020-06-11.mp3"
     },
     {
-      "title": "Trinity Sunday, Sunday 7th June",
+      "title": "Trinity Sunday",
+      "datetime": "2020-06-07T10:00:00+0100",
       "file": "2020-06-07.mp3"
     },
     {
-      "title": "Pentecost, Sunday 31st May",
+      "title": "Pentecost",
+      "datetime": "2020-05-31T10:00:00+0100",
       "file": "2020-05-31.mp3"
     },
     {
-      "title": "Sunday 24th May",
+      "datetime": "2020-05-24T10:00:00+0100",
       "file": "2020-05-24.mp3"
     },
     {
-      "title": "Ascension Day, Thursday 21st May",
+      "title": "Ascension Day",
+      "datetime": "2020-05-21T19:00:00+0100",
       "file": "2020-05-21.mp3"
     },
     {
-      "title": "Sunday 17th May",
+      "datetime": "2020-05-17T10:00:00+0100",
       "file": "2020-05-17.mp3"
     },
     {
-      "title": "Sunday 10th May",
+      "datetime": "2020-05-10T10:00:00+0100",
       "file": "2020-05-10.mp3"
     },
     {
-      "title": "Sunday 3rd May",
+      "datetime": "2020-05-03T10:00:00+0100",
       "file": "2020-05-03.mp3"
     },
     {
-      "title": "Sunday 26th April",
+      "datetime": "2020-04-26T10:00:00+0100",
       "file": "2020-04-26.mp3"
     },
     {
-      "title": "Sunday 19th April",
+      "datetime": "2020-04-19T10:00:00+0100",
       "file": "2020-04-19.mp3"
     },
     {
-      "title": "Easter Sunday, Sunday 12th April",
+      "title": "Easter Sunday",
+      "datetime": "2020-04-12T10:00:00+0100",
       "file": "2020-04-12.mp3"
     },
     {
-      "title": "Good Friday, Friday 10th April",
+      "title": "Good Friday",
+      "datetime": "2020-04-10T14:00:00+0100",
       "file": "2020-04-10.mp3"
     },
     {
-      "title": "Maundy Thursday, Thursday 9th April",
+      "title": "Maundy Thursday",
+      "datetime": "2020-04-09T19:30:00+0100",
       "file": "2020-04-09.mp3"
     },
     {
-      "title": "Sunday 5th April",
+      "datetime": "2020-04-05T10:00:00+0100",
       "file": "2020-04-05.mp3"
     },
     {
-      "title": "Sunday 29th March",
+      "datetime": "2020-03-29T10:00:00+0100",
       "file": "2020-03-29.mp3"
     }
   ]

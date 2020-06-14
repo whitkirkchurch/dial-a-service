@@ -15,11 +15,15 @@
           "title": {
             "type": "string"
           },
+          "datetime": {
+            "type": "string",
+            "format": "date-time"
+          },
           "file": {
             "type": "string"
           }
         },
-        "required": ["title", "file"],
+        "required": ["datetime", "file"],
         "additionalProperties": false
       },
       "minItems": 1

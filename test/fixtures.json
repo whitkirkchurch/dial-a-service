@@ -1,0 +1,23 @@
+{
+  "church_name": "Test Fixtures Church",
+  "services": [
+    {
+      "title": "Corpus Christi",
+      "datetime": "2020-06-11T19:30:00+0100",
+      "file": "2020-06-11.mp3"
+    },
+    {
+      "datetime": "2020-06-14T10:00:00+0100",
+      "file": "2020-06-14.mp3"
+    },
+    {
+      "title": "Ascension Day",
+      "datetime": "2020-05-21T19:00:00+0100",
+      "file": "2020-05-21.mp3"
+    },
+    {
+      "datetime": "2020-05-24T10:00:00+0100",
+      "file": "2020-05-24.mp3"
+    }
+  ]
+}

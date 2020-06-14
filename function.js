@@ -1,3 +1,58 @@
+var moment = require("moment");
+
+class ServiceData {
+  constructor(service) {
+    this.data = service;
+  }
+
+  get fileName() {
+    return this.data.file;
+  }
+
+  get dateTimeObject() {
+    return moment(this.data.datetime);
+  }
+
+  get dateString() {
+    return this.dateTimeObject.format("dddd Do MMMM");
+  }
+
+  get serviceDescriptorString() {
+    if ("title" in this.data) {
+      return this.data.title + ", " + this.dateString;
+    } else {
+      return this.dateString;
+    }
+  }
+}
+
+class ChurchData {
+  constructor(json) {
+    this.data = json;
+  }
+
+  get churchName() {
+    return this.data.church_name;
+  }
+
+  get services() {
+    return this.data.services.map((f) => new ServiceData(f));
+  }
+
+  get orderedServices() {
+    return this.services.sort((a, b) =>
+      a.dateTimeObject < b.dateTimeObject ? 1 : -1
+    );
+  }
+
+  get latestService() {
+    return this.orderedServices[0];
+  }
+}
+
+exports.ServiceData = ServiceData;
+exports.ChurchData = ChurchData;
+
 exports.handler = function (context, event, callback) {
   var got = require("got");
   let twiml = new Twilio.twiml.VoiceResponse();
@@ -8,14 +63,14 @@ exports.handler = function (context, event, callback) {
 
   got(data_url)
     .then(function (response) {
-      data = JSON.parse(response.body);
+      let churchData = new ChurchData(JSON.parse(response.body));
 
-      const services = data.services.slice(0, 10); // Get the latest 9 services
+      const services = churchData.orderedServices.slice(0, 10); // Get the latest 9 services
 
       if (
-        data === undefined ||
-        services === undefined ||
-        services.length === 0
+        churchData === undefined ||
+        churchData.orderedServices === undefined ||
+        churchData.orderedServices.length === 0
       ) {
         twiml.say(
           "Sorry , we ran into a problem fetching the latest services."
@@ -26,25 +81,33 @@ exports.handler = function (context, event, callback) {
 
       // No digit pressed? Spit out the root menu.
       if (event.Digits === undefined) {
-        const service_menu = services
+        const service_menu = Array.from(services)
           .map(function (service, index) {
             if (index === 0) {
               return (
                 "Press " +
                 (index + 1) +
                 " for the service from " +
-                service.title +
+                service.serviceDescriptorString +
                 "."
               );
             } else {
-              return "For " + service.title + ", press " + (index + 1) + ".";
+              return (
+                "For " +
+                service.serviceDescriptorString +
+                ", press " +
+                (index + 1) +
+                "."
+              );
             }
           })
           .join(" ");
 
         twiml
           .gather({ numDigits: 1 })
-          .say("Thanks for calling " + data.church_name + ". " + service_menu);
+          .say(
+            "Thanks for calling " + churchData.churchName + ". " + service_menu
+          );
       } else {
         // Key pressed, do the thing
 

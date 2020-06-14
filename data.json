@@ -2,6 +2,14 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
+      "title": "Sunday 14th June",
+      "file": "2020-06-14.mp3"
+    },
+    {
+      "title": "Corpus Christi, Thursday 11th June",
+      "file": "2020-06-11.mp3"
+    },
+    {
       "title": "Trinity Sunday, Sunday 7th June",
       "file": "2020-06-07.mp3"
     },

@@ -14,7 +14,14 @@ class ServiceData {
   }
 
   get dateString() {
-    return this.dateTimeObject.format("dddd Do MMMM");
+    var datetime = this.dateTimeObject;
+    return (
+      datetime.format("dddd") +
+      " the " +
+      datetime.format("Do") +
+      " of " +
+      datetime.format("MMMM")
+    );
   }
 
   get serviceDescriptorString() {

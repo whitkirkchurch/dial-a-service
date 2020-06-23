@@ -17,20 +17,20 @@ describe("Dial-A-Service", function () {
 
     it("correctly returns the date string", function () {
       service = new das.ServiceData(json.services[0]);
-      assert.equal(service.dateString, "Thursday 11th June");
+      assert.equal(service.dateString, "Thursday the 11th of June");
     });
 
     it("correctly returns the descriptor string for a service with a title", function () {
       service = new das.ServiceData(json.services[0]);
       assert.equal(
         service.serviceDescriptorString,
-        "Corpus Christi, Thursday 11th June"
+        "Corpus Christi, Thursday the 11th of June"
       );
     });
 
     it("correctly returns the descriptor string for a service without a title", function () {
       service = new das.ServiceData(json.services[3]);
-      assert.equal(service.serviceDescriptorString, "Sunday 24th May");
+      assert.equal(service.serviceDescriptorString, "Sunday the 24th of May");
     });
 
     it("correctly detects future services", function () {
@@ -55,23 +55,23 @@ describe("Dial-A-Service", function () {
       assert.deepEqual(
         church.orderedServices.map((f) => f.dateString),
         [
-          "Sunday 14th June",
-          "Thursday 11th June",
-          "Sunday 31st May",
-          "Saturday 30th May",
-          "Friday 29th May",
-          "Thursday 28th May",
-          "Wednesday 27th May",
-          "Tuesday 26th May",
-          "Monday 25th May",
-          "Sunday 24th May",
-          "Thursday 21st May",
+          "Sunday the 14th of June",
+          "Thursday the 11th of June",
+          "Sunday the 31st of May",
+          "Saturday the 30th of May",
+          "Friday the 29th of May",
+          "Thursday the 28th of May",
+          "Wednesday the 27th of May",
+          "Tuesday the 26th of May",
+          "Monday the 25th of May",
+          "Sunday the 24th of May",
+          "Thursday the 21st of May",
         ]
       );
     });
 
     it("latestService returns the latest service", function () {
-      assert.equal(church.latestService.dateString, "Sunday 14th June");
+      assert.equal(church.latestService.dateString, "Sunday the 14th of June");
     });
 
     it("servicesForMenu returns no more than nine services", function () {

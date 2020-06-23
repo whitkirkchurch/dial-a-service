@@ -35,7 +35,7 @@ describe("Dial-A-Service", function () {
 
     it("correctly detects future services", function () {
       pastService = new das.ServiceData(json.services[0]);
-      futureService = new das.ServiceData(json.services[4]);
+      futureService = new das.ServiceData(json.services[11]);
       assert.equal(pastService.serviceInFuture, false);
       assert.equal(futureService.serviceInFuture, true);
     });
@@ -57,6 +57,13 @@ describe("Dial-A-Service", function () {
         [
           "Sunday 14th June",
           "Thursday 11th June",
+          "Sunday 31st May",
+          "Saturday 30th May",
+          "Friday 29th May",
+          "Thursday 28th May",
+          "Wednesday 27th May",
+          "Tuesday 26th May",
+          "Monday 25th May",
           "Sunday 24th May",
           "Thursday 21st May",
         ]
@@ -65,6 +72,10 @@ describe("Dial-A-Service", function () {
 
     it("latestService returns the latest service", function () {
       assert.equal(church.latestService.dateString, "Sunday 14th June");
+    });
+
+    it("servicesForMenu returns no more than nine services", function () {
+      assert.equal(church.servicesForMenu.length, 9);
     });
   });
 });

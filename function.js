@@ -51,6 +51,10 @@ class ChurchData {
     );
   }
 
+  get servicesForMenu() {
+    return this.orderedServices.slice(0, 9);
+  }
+
   get latestService() {
     return this.orderedServices[0];
   }
@@ -71,7 +75,7 @@ exports.handler = function (context, event, callback) {
     .then(function (response) {
       let churchData = new ChurchData(JSON.parse(response.body));
 
-      const services = churchData.orderedServices.slice(0, 10); // Get the latest 9 services
+      const services = churchData.servicesForMenu;
 
       if (
         churchData === undefined ||

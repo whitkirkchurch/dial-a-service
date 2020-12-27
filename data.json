@@ -178,6 +178,38 @@
       "title": "Christ the King",
       "datetime": "2020-11-22T10:00:00+0000",
       "file": "2020-11-22.mp3"
+    },
+    {
+      "title": "Advent Sunday",
+      "datetime": "2020-11-29T10:00:00+0000",
+      "file": "2020-11-29.mp3"
+    },
+    {
+      "datetime": "2020-12-06T10:00:00+0000",
+      "file": "2020-12-06.mp3"
+    },
+    {
+      "datetime": "2020-12-13T10:00:00+0000",
+      "file": "2020-12-13.mp3"
+    },
+    {
+      "datetime": "2020-12-20T10:00:00+0000",
+      "file": "2020-12-20.mp3"
+    },
+    {
+      "title": "Festival of Lessons and Carols",
+      "datetime": "2020-12-20T18:00:00+0000",
+      "file": "2020-12-20-lessons-and-carols.mp3"
+    },
+    {
+      "title": "Midnight Mass",
+      "datetime": "2020-12-24T23:30:00+0000",
+      "file": "2020-12-24-midnight-mass.mp3"
+    },
+    {
+      "title": "Christmas Day Eucharist",
+      "datetime": "2020-12-25T18:00:00+0000",
+      "file": "2020-12-25-christmas-day.mp3"
     }
   ]
 }

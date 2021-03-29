@@ -271,6 +271,16 @@
     {
       "datetime": "2021-03-21T10:00:00+0000",
       "file": "2021-03-21.mp3"
+    },
+    {
+      "title": "Palm Sunday",
+      "datetime": "2021-03-28T10:00:00+0000",
+      "file": "2021-03-28-palm-sunday.mp3"
+    },
+    {
+      "title": "Monday of Holy Week",
+      "datetime": "2021-03-29T19:30:00+0000",
+      "file": "2021-03-29-holy-week-monday.mp3"
     }
   ]
 }

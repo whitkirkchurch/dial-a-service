@@ -281,6 +281,16 @@
       "title": "Monday of Holy Week",
       "datetime": "2021-03-29T19:30:00+0000",
       "file": "2021-03-29-holy-week-monday.mp3"
+    },
+    {
+      "title": "Tuesday of Holy Week",
+      "datetime": "2021-03-30T19:30:00+0000",
+      "file": "2021-03-30-holy-week-tuesday.mp3"
+    },
+    {
+      "title": "Wednesday of Holy Week",
+      "datetime": "2021-03-31T19:30:00+0000",
+      "file": "2021-03-31-holy-week-wednesday.mp3"
     }
   ]
 }

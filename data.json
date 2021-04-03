@@ -291,6 +291,16 @@
       "title": "Wednesday of Holy Week",
       "datetime": "2021-03-31T19:30:00+0000",
       "file": "2021-03-31-holy-week-wednesday.mp3"
+    },
+    {
+      "title": "The Liturgy of Maundy Thursday",
+      "datetime": "2021-04-01T19:30:00+0000",
+      "file": "2021-04-01-maundy-thursday.mp3"
+    },
+    {
+      "title": "The Liturgy of Good Friday",
+      "datetime": "2021-04-02T14:00:00+0000",
+      "file": "2021-04-02-liturgy-of-good-friday.mp3"
     }
   ]
 }

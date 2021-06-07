@@ -355,6 +355,20 @@
       "title": "Trinity Sunday",
       "datetime": "2021-05-30T10:00:00+0000",
       "file": "2021-05-30-trinity.mp3"
+    },
+    {
+      "title": "Corpus Christi",
+      "datetime": "2021-06-03T19:30:00+0000",
+      "file": "2021-06-03-corpus-christi.mp3"
+    },
+    {
+      "datetime": "2021-06-06T10:00:00+0000",
+      "file": "2021-06-06-trinity-1.mp3"
+    },
+    {
+      "title": "Choral Evensong",
+      "datetime": "2021-06-06T18:00:00+0000",
+      "file": "2021-06-06-evensong.mp3"
     }
   ]
 }

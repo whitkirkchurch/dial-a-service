@@ -274,87 +274,101 @@
     },
     {
       "title": "Palm Sunday",
-      "datetime": "2021-03-28T10:00:00+0000",
+      "datetime": "2021-03-28T10:00:00+0100",
       "file": "2021-03-28-palm-sunday.mp3"
     },
     {
       "title": "Monday of Holy Week",
-      "datetime": "2021-03-29T19:30:00+0000",
+      "datetime": "2021-03-29T19:30:00+0100",
       "file": "2021-03-29-holy-week-monday.mp3"
     },
     {
       "title": "Tuesday of Holy Week",
-      "datetime": "2021-03-30T19:30:00+0000",
+      "datetime": "2021-03-30T19:30:00+0100",
       "file": "2021-03-30-holy-week-tuesday.mp3"
     },
     {
       "title": "Wednesday of Holy Week",
-      "datetime": "2021-03-31T19:30:00+0000",
+      "datetime": "2021-03-31T19:30:00+0100",
       "file": "2021-03-31-holy-week-wednesday.mp3"
     },
     {
       "title": "The Liturgy of Maundy Thursday",
-      "datetime": "2021-04-01T19:30:00+0000",
+      "datetime": "2021-04-01T19:30:00+0100",
       "file": "2021-04-01-maundy-thursday.mp3"
     },
     {
       "title": "The Liturgy of Good Friday",
-      "datetime": "2021-04-02T14:00:00+0000",
+      "datetime": "2021-04-02T14:00:00+0100",
       "file": "2021-04-02-liturgy-of-good-friday.mp3"
     },
     {
       "title": "Easter Vigil",
-      "datetime": "2021-04-04T06:00:00+0000",
+      "datetime": "2021-04-04T06:00:00+0100",
       "file": "2021-04-04-easter-vigil.mp3"
     },
     {
       "title": "Easter Sunday Eucharist",
-      "datetime": "2021-04-04T10:00:00+0000",
+      "datetime": "2021-04-04T10:00:00+0100",
       "file": "2021-04-04-easter-sunday.mp3"
     },
     {
-      "datetime": "2021-04-11T10:00:00+0000",
+      "datetime": "2021-04-11T10:00:00+0100",
       "file": "2021-04-11.mp3"
     },
     {
-      "datetime": "2021-04-18T10:00:00+0000",
+      "datetime": "2021-04-18T10:00:00+0100",
       "file": "2021-04-18.mp3"
     },
     {
-      "datetime": "2021-04-25T10:00:00+0000",
+      "datetime": "2021-04-25T10:00:00+0100",
       "file": "2021-04-25.mp3"
     },
     {
-      "datetime": "2021-05-02T10:00:00+0000",
+      "datetime": "2021-05-02T10:00:00+0100",
       "file": "2021-05-02.mp3"
     },
     {
       "title": "Choral Evensong",
-      "datetime": "2021-05-02T18:00:00+0000",
+      "datetime": "2021-05-02T18:00:00+0100",
       "file": "2021-05-02-evensong.mp3"
     },
     {
-      "datetime": "2021-05-09T10:00:00+0000",
+      "datetime": "2021-05-09T10:00:00+0100",
       "file": "2021-05-09.mp3"
     },
     {
       "title": "Ascension Day",
-      "datetime": "2021-05-13T19:30:00+0000",
+      "datetime": "2021-05-13T19:30:00+0100",
       "file": "2021-05-13-ascension-day.mp3"
     },
     {
-      "datetime": "2021-05-16T10:00:00+0000",
+      "datetime": "2021-05-16T10:00:00+0100",
       "file": "2021-05-16.mp3"
     },
     {
       "title": "Pentecost",
-      "datetime": "2021-05-23T10:00:00+0000",
+      "datetime": "2021-05-23T10:00:00+0100",
       "file": "2021-05-23-pentecost.mp3"
     },
     {
       "title": "Trinity Sunday",
-      "datetime": "2021-05-30T10:00:00+0000",
+      "datetime": "2021-05-30T10:00:00+0100",
       "file": "2021-05-30-trinity.mp3"
+    },
+    {
+      "title": "Corpus Christi",
+      "datetime": "2021-06-03T19:30:00+0100",
+      "file": "2021-06-03-corpus-christi.mp3"
+    },
+    {
+      "datetime": "2021-06-06T10:00:00+0100",
+      "file": "2021-06-06-trinity-1.mp3"
+    },
+    {
+      "title": "Choral Evensong",
+      "datetime": "2021-06-06T18:00:00+0100",
+      "file": "2021-06-06-evensong.mp3"
     }
   ]
 }

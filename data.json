@@ -390,6 +390,14 @@
       "title": "Choral Evensong",
       "datetime": "2021-07-04T18:00:00+0100",
       "file": "2021-07-04-evensong.mp3"
+    },
+    {
+      "datetime": "2021-07-11T10:00:00+0100",
+      "file": "2021-07-11-trinity-6.mp3"
+    },
+    {
+      "datetime": "2021-07-18T10:00:00+0100",
+      "file": "2021-07-18-trinity-7.mp3"
     }
   ]
 }

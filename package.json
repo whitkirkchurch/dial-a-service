@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "ajv-cli": "^3.3.0",
-    "mocha": "^8.2.1",
+    "mocha": "^8.4.0",
     "moment": "^2.29.1",
-    "prettier": "^2.2.1"
+    "prettier": "^2.3.2"
   },
   "scripts": {
     "test": "mocha"

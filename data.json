@@ -464,6 +464,20 @@
     {
       "datetime": "2021-10-17T10:00:00+0100",
       "file": "2021-10-17-trinity-20.mp3"
+    },
+    {
+      "title": "All Saints' Sunday",
+      "datetime": "2021-10-31T10:00:00+0100",
+      "file": "2021-10-31-all-saints.mp3"
+    },
+    {
+      "title": "The Commemoration of the Faithful Departed",
+      "datetime": "2021-11-02T19:30:00+0100",
+      "file": "2021-11-02-all-souls.mp3"
+    },
+    {
+      "datetime": "2021-11-07T10:00:00+0100",
+      "file": "2021-11-07-3rd-before-advent.mp3"
     }
   ]
 }

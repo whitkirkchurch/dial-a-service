@@ -65,6 +65,11 @@
     {
       "datetime": "2021-12-05T10:00:00+0000",
       "file": "2021-12-05-advent-2.mp3"
+    },
+    {
+      "title": "Choral Evensong",
+      "datetime": "2021-12-05T18:00:00+0000",
+      "file": "2021-12-05-evensong.mp3"
     }
   ]
 }

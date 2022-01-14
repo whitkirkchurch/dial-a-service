@@ -2,33 +2,6 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
-      "title": "Harvest Thanksgiving",
-      "datetime": "2021-10-03T10:00:00+0100",
-      "file": "2021-10-03-harvest-thanksgiving.mp3"
-    },
-    {
-      "title": "Choral Evensong",
-      "datetime": "2021-10-03T18:00:00+0100",
-      "file": "2021-10-03-evensong.mp3"
-    },
-    {
-      "datetime": "2021-10-10T10:00:00+0100",
-      "file": "2021-10-10-trinity-19.mp3"
-    },
-    {
-      "datetime": "2021-10-17T10:00:00+0100",
-      "file": "2021-10-17-trinity-20.mp3"
-    },
-    {
-      "datetime": "2021-10-24T10:00:00+0100",
-      "file": "2021-10-24-trinity-last.mp3"
-    },
-    {
-      "title": "All Saints' Sunday",
-      "datetime": "2021-10-31T10:00:00+0000",
-      "file": "2021-10-31-all-saints.mp3"
-    },
-    {
       "title": "The Commemoration of the Faithful Departed",
       "datetime": "2021-11-02T19:30:00+0000",
       "file": "2021-11-02-all-souls.mp3"

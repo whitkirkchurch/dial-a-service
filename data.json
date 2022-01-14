@@ -76,6 +76,11 @@
       "title": "Choral Evensong",
       "datetime": "2022-01-02T18:00:00+0000",
       "file": "2022-01-02-evensong.mp3"
+    },
+    {
+      "title": "The Feast of the Epiphany",
+      "datetime": "2022-01-06T19:30:00+0000",
+      "file": "2022-01-06-epiphany.mp3"
     }
   ]
 }

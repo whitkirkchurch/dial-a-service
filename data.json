@@ -2,43 +2,6 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
-      "datetime": "2021-12-05T10:00:00+0000",
-      "file": "2021-12-05-advent-2.mp3"
-    },
-    {
-      "title": "Choral Evensong",
-      "datetime": "2021-12-05T18:00:00+0000",
-      "file": "2021-12-05-evensong.mp3"
-    },
-    {
-      "datetime": "2021-12-12T10:00:00+0000",
-      "file": "2021-12-12-advent-3.mp3"
-    },
-    {
-      "datetime": "2021-12-19T10:00:00+0000",
-      "file": "2021-12-19-advent-4.mp3"
-    },
-    {
-      "title": "The Festival of Lessons and Carols",
-      "datetime": "2021-12-19T18:00:00+0000",
-      "file": "2021-12-19-lessons-and-carols.mp3"
-    },
-    {
-      "title": "Midnight Eucharist",
-      "datetime": "2021-12-24T23:30:00+0000",
-      "file": "2021-12-24-midnight-eucharist.mp3"
-    },
-    {
-      "title": "Christmas Morning Eucharist",
-      "datetime": "2021-12-25T10:00:00+0000",
-      "file": "2021-12-25-christmas-morning.mp3"
-    },
-    {
-      "title": "The Feast of St Stephen",
-      "datetime": "2021-12-26T10:00:00+0000",
-      "file": "2021-12-26-st-stephen.mp3"
-    },
-    {
       "datetime": "2022-01-02T10:00:00+0000",
       "file": "2022-01-02-christmas-2.mp3"
     },

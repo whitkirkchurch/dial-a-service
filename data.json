@@ -2,37 +2,6 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
-      "datetime": "2022-01-02T10:00:00+0000",
-      "file": "2022-01-02-christmas-2.mp3"
-    },
-    {
-      "title": "Choral Evensong",
-      "datetime": "2022-01-02T18:00:00+0000",
-      "file": "2022-01-02-evensong.mp3"
-    },
-    {
-      "title": "The Feast of the Epiphany",
-      "datetime": "2022-01-06T19:30:00+0000",
-      "file": "2022-01-06-epiphany.mp3"
-    },
-    {
-      "title": "The Baptism of Christ",
-      "datetime": "2022-01-09T10:00:00+0000",
-      "file": "2022-01-09-baptism-of-christ.mp3"
-    },
-    {
-      "datetime": "2022-01-16T10:00:00+0000",
-      "file": "2022-01-16-epiphany-2.mp3"
-    },
-    {
-      "datetime": "2022-01-23T10:00:00+0000",
-      "file": "2022-01-23-epiphany-3.mp3"
-    },
-    {
-      "datetime": "2022-01-30T10:00:00+0000",
-      "file": "2022-01-30-epiphany-4.mp3"
-    },
-    {
       "title": "The presentation of Christ in the Temple",
       "datetime": "2022-02-02T10:00:00+0000",
       "file": "2022-02-02-candlemas.mp3"

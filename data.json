@@ -82,6 +82,11 @@
       "title": "Holy Wednesday",
       "datetime": "2022-04-13T19:30:00+0100",
       "file": "2022-04-13-holy-wednesday.mp3"
+    },
+    {
+      "title": "Maundy Thursday",
+      "datetime": "2022-04-14T19:30:00+0100",
+      "file": "2022-04-14-maundy-thursday.mp3"
     }
   ]
 }

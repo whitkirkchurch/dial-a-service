@@ -97,6 +97,11 @@
       "title": "The Easter Vigil",
       "datetime": "2022-04-17T06:00:00+0100",
       "file": "2022-04-17-easter-vigil.mp3"
+    },
+    {
+      "title": "Easter Day",
+      "datetime": "2022-04-17T10:00:00+0100",
+      "file": "2022-04-17-easter-day.mp3"
     }
   ]
 }

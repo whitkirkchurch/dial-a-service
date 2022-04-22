@@ -87,6 +87,11 @@
       "title": "Maundy Thursday",
       "datetime": "2022-04-14T19:30:00+0100",
       "file": "2022-04-14-maundy-thursday.mp3"
+    },
+    {
+      "title": "The Liturgy of Good Friday",
+      "datetime": "2022-04-15T14:30:00+0100",
+      "file": "2022-04-15-good-friday.mp3"
     }
   ]
 }

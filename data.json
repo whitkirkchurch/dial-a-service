@@ -102,6 +102,10 @@
       "title": "Easter Day",
       "datetime": "2022-04-17T10:00:00+0100",
       "file": "2022-04-17-easter-day.mp3"
+    },
+    {
+      "datetime": "2022-04-24T10:00:00+0100",
+      "file": "2022-04-24-1000-easter-2.mp3"
     }
   ]
 }

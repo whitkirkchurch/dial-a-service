@@ -2,33 +2,6 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
-      "title": "Ash Wednesday",
-      "datetime": "2022-03-02T19:30:00+0000",
-      "file": "2022-03-02-ash-wednesday.mp3"
-    },
-    {
-      "datetime": "2022-03-06T10:00:00+0000",
-      "file": "2022-03-06-lent-1.mp3"
-    },
-    {
-      "title": "Choral Evensong",
-      "datetime": "2022-03-06T18:00:00+0000",
-      "file": "2022-03-06-evensong.mp3"
-    },
-    {
-      "datetime": "2022-03-13T10:00:00+0000",
-      "file": "2022-03-13-lent-2.mp3"
-    },
-    {
-      "datetime": "2022-03-20T10:00:00+0000",
-      "file": "2022-03-20-lent-3.mp3"
-    },
-    {
-      "title": "Mothering Sunday",
-      "datetime": "2022-03-27T10:00:00+0100",
-      "file": "2022-03-27-mothering-sunday.mp3"
-    },
-    {
       "datetime": "2022-04-03T10:00:00+0100",
       "file": "2022-04-03-lent-5.mp3"
     },
@@ -110,6 +83,16 @@
     {
       "datetime": "2022-05-29T10:00:00+0100",
       "file": "2022-05-29-1000-easter-7.mp3"
+    },
+    {
+      "title": "Pentecost",
+      "datetime": "2022-06-05T10:00:00+0100",
+      "file": "2022-06-05-1000-pentecost.mp3"
+    },
+    {
+      "title": "A Service of Thanksgiving in celebration of The Queen's Platinum Jubilee",
+      "datetime": "2022-06-05T16:00:00+0100",
+      "file": "2022-06-05-1600-jubilee.mp3"
     }
   ]
 }

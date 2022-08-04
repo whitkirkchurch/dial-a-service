@@ -2,59 +2,6 @@
   "church_name": "St Mary's Church, Whitkirk",
   "services": [
     {
-      "datetime": "2022-04-03T10:00:00+0100",
-      "file": "2022-04-03-lent-5.mp3"
-    },
-    {
-      "title": "Choral Evensong",
-      "datetime": "2022-04-03T18:00:00+0100",
-      "file": "2022-04-03-evensong.mp3"
-    },
-    {
-      "title": "Palm Sunday",
-      "datetime": "2022-04-10T10:00:00+0100",
-      "file": "2022-04-10-palm-sunday.mp3"
-    },
-    {
-      "title": "Holy Monday",
-      "datetime": "2022-04-11T19:30:00+0100",
-      "file": "2022-04-11-holy-monday.mp3"
-    },
-    {
-      "title": "Holy Tuesday",
-      "datetime": "2022-04-12T19:30:00+0100",
-      "file": "2022-04-12-holy-tuesday.mp3"
-    },
-    {
-      "title": "Holy Wednesday",
-      "datetime": "2022-04-13T19:30:00+0100",
-      "file": "2022-04-13-holy-wednesday.mp3"
-    },
-    {
-      "title": "Maundy Thursday",
-      "datetime": "2022-04-14T19:30:00+0100",
-      "file": "2022-04-14-maundy-thursday.mp3"
-    },
-    {
-      "title": "The Liturgy of Good Friday",
-      "datetime": "2022-04-15T14:30:00+0100",
-      "file": "2022-04-15-good-friday.mp3"
-    },
-    {
-      "title": "The Easter Vigil",
-      "datetime": "2022-04-17T06:00:00+0100",
-      "file": "2022-04-17-easter-vigil.mp3"
-    },
-    {
-      "title": "Easter Day",
-      "datetime": "2022-04-17T10:00:00+0100",
-      "file": "2022-04-17-easter-day.mp3"
-    },
-    {
-      "datetime": "2022-04-24T10:00:00+0100",
-      "file": "2022-04-24-1000-easter-2.mp3"
-    },
-    {
       "datetime": "2022-05-01T10:00:00+0100",
       "file": "2022-05-01-1000-easter-3.mp3"
     },

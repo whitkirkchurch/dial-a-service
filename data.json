@@ -57,6 +57,11 @@
     {
       "datetime": "2022-07-03T10:00:00+0100",
       "file": "2022-07-03-1000-trinity-3.mp3"
+    },
+    {
+      "title": "Choral Evensong",
+      "datetime": "2022-07-03T18:00:00+0100",
+      "file": "2022-07-03-1800-evensong.mp3"
     }
   ]
 }
